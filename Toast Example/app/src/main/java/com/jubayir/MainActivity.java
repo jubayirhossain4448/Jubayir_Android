@@ -19,6 +19,6 @@ import android.widget.TextView;
         loginBtn = findViewById(R.id.logingBtn);
         logoutBtn = findViewById(R.id.logoutBtn);
 
-        
+
     }
 }
