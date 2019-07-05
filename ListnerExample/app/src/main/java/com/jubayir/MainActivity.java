@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button loginBtn, logoutBtn;
     private TextView textView;
+    private int count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
+            count++;
             if (v.getId() == R.id.loginBtn){
-                textView.setText("Login Button is Clicked ");
+                textView.setText("Login Button is Clicked " + count + "Times");
             }else if (v.getId() == R.id.logoutBtn){
-                textView.setText("Logout Button is Clicked ");
+                textView.setText("Logout Button is Clicked " + count + "Times");
             }
         }
     }
