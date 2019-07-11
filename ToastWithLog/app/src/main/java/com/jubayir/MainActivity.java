@@ -25,9 +25,6 @@ public class MainActivity extends AppCompatActivity {
     public void loginMessage(View v) {
 
             Log.d("tag", "Login Button is clicked"); // tag == key, msg = value
-
-            
-
     }
 
     public void logoutMessage(View view) {
