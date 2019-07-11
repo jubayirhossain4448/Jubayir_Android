@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Toast_Message(View view) {
        Toast toast = Toast.makeText(MainActivity.this, "Toast Example is Shown", Toast.LENGTH_SHORT);
-       toast.setGravity(Gravity.TOP, 0, 0);
+       toast.setGravity(Gravity.LEFT, 50, 25);
         toast.show();
     }
 }
