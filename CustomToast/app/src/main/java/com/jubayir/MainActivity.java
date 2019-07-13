@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                View customView = inflater.inflate(R.layout.custom_toast_layout, (ViewGroup) findViewById(R.id.customToastLayout));
 
                 Toast toast = new Toast(MainActivity.this);
-                toast.setDuration(Toast.LENGTH_SHORT);
+                toast.setDuration(Toast.LENGTH_LONG);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.setView(customView);
                 toast.show();

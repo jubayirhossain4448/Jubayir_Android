@@ -12,10 +12,10 @@
         android:src="@drawable/hossain"/>
 
     <TextView
-        android:layout_margin="5dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="144dp"
+        android:layout_margin="5dp"
         android:text="@string/buttom_toast"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
 </LinearLayout>
