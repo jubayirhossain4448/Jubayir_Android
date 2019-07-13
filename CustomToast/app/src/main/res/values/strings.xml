@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Custom Toast</string>
+    <string name="buttom_text">Login</string>
 </resources>
