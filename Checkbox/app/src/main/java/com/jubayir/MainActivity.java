@@ -2,8 +2,10 @@ package com.jubayir;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.CheckBox;
 
 public class MainActivity extends AppCompatActivity {
+    private CheckBox milkChe, sugarChe, waterChe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
