@@ -11,5 +11,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+
+        milkChe = findViewById(R.id.milkChk);
+        sugarChe = findViewById(R.id.sugarChk);
+        waterChe = findViewById(R.id.waterChk);
+     }
 }
