@@ -30,15 +30,15 @@ public class MainActivity extends AppCompatActivity {
                 StringBuilder stringBuilder = new StringBuilder();
                 if (milkChe.isChecked()){
                     String value = milkChe.getText().toString();
-                    stringBuilder.append(value + "Is ordered " + "\n");
+                    stringBuilder.append(value + " is ordered " + "\n");
                 }
                 if (sugarChe.isChecked()){
                     String value = sugarChe.getText().toString();
-                    stringBuilder.append(value + "Is ordered " + "\n");
+                    stringBuilder.append(value + " is ordered " + "\n");
                 }
                 if (waterChe.isChecked()){
                     String value = waterChe.getText().toString();
-                    stringBuilder.append(value + "Is ordered  " + "\n");
+                    stringBuilder.append(value + " is ordered  " + "\n");
                 }
                 resultTV.setText(stringBuilder);
             }
