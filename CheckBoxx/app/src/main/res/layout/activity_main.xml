@@ -22,6 +22,7 @@
         android:text="Milk"
         android:textSize="14sp"
         android:textStyle="normal"
+        android:layout_gravity="center"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"/>
 
@@ -32,6 +33,7 @@
         android:text="Suger"
         android:textSize="14sp"
         android:textStyle="normal"
+        android:layout_gravity="center"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"/>
 
@@ -42,6 +44,7 @@
         android:text="Water"
         android:textSize="14sp"
         android:textStyle="normal"
+        android:layout_gravity="center"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"/>
 
@@ -49,6 +52,7 @@
         android:id="@+id/showBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Show"
         android:textSize="14sp"/>
 

@@ -25,16 +25,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 StringBuilder stringBuilder = new StringBuilder();
-                if (mailCH.isChecked()){
+                if (mailCH.isChecked()) {
                     String value = mailCH.getText().toString();
-                    stringBuilder.append(value+ "is ordered");
+                    stringBuilder.append(value + "is ordered");
                 }
-                if (sugarCH.isChecked()){
+                if (sugarCH.isChecked()) {
                     String value = sugarCH.getText().toString();
-                    stringBuilder.append(value+ "is ordered");
-                }if (waterCH.isChecked()){
+                    stringBuilder.append(value + "is ordered");
+                }
+                if (waterCH.isChecked()) {
                     String value = waterCH.getText().toString();
-                    stringBuilder.append(value+ "is ordered");
+                    stringBuilder.append(value + "is ordered");
                 }
                 resultV.setText(stringBuilder);
             }
