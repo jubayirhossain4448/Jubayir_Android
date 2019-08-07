@@ -52,4 +52,11 @@
         android:text="Show"
         android:textSize="14sp"/>
 
+    <TextView
+        android:id="@+id/resultV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+
 </LinearLayout>
