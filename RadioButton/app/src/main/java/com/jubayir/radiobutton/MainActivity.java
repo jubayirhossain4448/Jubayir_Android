@@ -3,6 +3,7 @@ package com.jubayir.radiobutton;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RadioGroup radioGroup;
     private RadioButton maleRBtn, femaleRBtn;
+    private RadioButton gender;
     private Button showBtn;
     private TextView resultTV;
 
@@ -21,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         init();
+
+        showBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int selectId = radioGroup.getCheckedRadioButtonId();
+                gender = findViewById(selectId);
+
+                String value = gender.getText().toString();
+                resultTV.setText("You have selected : " + value);
+            }
+        });
     }
 
     private void init() {
