@@ -3,8 +3,10 @@ package com.jubayir.aswitch;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
+    private Switch aSwitch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
