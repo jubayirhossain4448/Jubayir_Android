@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         seekBar = findViewById(R.id.seekbar);
         textViewId = findViewById(R.id.textViewId);
+
+        textViewId.setText("Volume : " + seekBar.getProgress()+ "/" + seekBar.getMax());
     }
 }
