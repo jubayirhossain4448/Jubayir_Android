@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(MainActivity.this, "onStartTrakingTouch", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "onStopTrakingTouch", Toast.LENGTH_SHORT).show();
 
             }
         });
