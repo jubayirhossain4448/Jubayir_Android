@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         textViewId.setText("Volume : " + seekBar.getProgress()+ "/" + seekBar.getMax());
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
+                textViewId.setText("Volume : " + progress+ "/" + seekBar.getMax());
             }
 
             @Override
