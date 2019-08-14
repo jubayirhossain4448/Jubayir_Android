@@ -17,5 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
+
+        webView = findViewById(R.id.webView);
+
+        webView.loadUrl("http://www.nu.ac.bd/");
     }
 }
