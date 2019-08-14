@@ -3,6 +3,7 @@ package com.jubayir.nationaluniversity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
 
         webView = findViewById(R.id.webView);
+
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
 
         webView.loadUrl("http://www.nu.ac.bd/");
     }
