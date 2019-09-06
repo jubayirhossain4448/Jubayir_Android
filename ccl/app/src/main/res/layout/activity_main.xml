@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textColor="@android:color/holo_purple"
         android:layout_margin="10dp"
-        android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
