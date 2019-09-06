@@ -15,11 +15,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sales Activity"
+            android:text="Sales Order"
             android:textSize="16sp"
             android:textStyle="bold"
             android:gravity="center"/>
 
     </androidx.appcompat.widget.Toolbar>
+    
+
+
 
 </LinearLayout>
