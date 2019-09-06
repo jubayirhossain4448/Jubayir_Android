@@ -9,15 +9,17 @@
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#2BAE66FF">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sales Activity"
             android:textSize="16sp"
-            android:textStyle="bold"/>
-        
+            android:textStyle="bold"
+            android:gravity="center"/>
+
     </androidx.appcompat.widget.Toolbar>
 
 </LinearLayout>
