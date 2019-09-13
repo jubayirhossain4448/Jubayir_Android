@@ -10,5 +10,8 @@
         android:layout_height="wrap_content"
         android:text="Home Fragment"
         android:textStyle="bold"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_gravity="center"/>
 </LinearLayout>
