@@ -16,5 +16,7 @@
         android:layout_height="wrap_content"
         android:text="Save"
         android:textAllCaps="true"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
 </LinearLayout>
