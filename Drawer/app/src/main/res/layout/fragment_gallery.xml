@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_margin="80dp">
 
         <Button
             android:layout_width="wrap_content"
@@ -25,7 +26,8 @@
             android:textAllCaps="true"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20sp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
