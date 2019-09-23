@@ -42,7 +42,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"/>
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </LinearLayout>
