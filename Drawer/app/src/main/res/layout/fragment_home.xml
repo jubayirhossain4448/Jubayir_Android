@@ -12,7 +12,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Navigaiton"/>
+            android:text="Navigaiton"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
 
     </androidx.appcompat.widget.Toolbar>
 
